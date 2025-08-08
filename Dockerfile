@@ -1,5 +1,4 @@
-﻿# Dockerfile.backend
-FROM node:18-alpine
+﻿FROM node:18-alpine
 
 WORKDIR /app
 
@@ -9,8 +8,9 @@ RUN npm install
 
 COPY . .
 
-RUN npm build
+RUN npm run build
 
 EXPOSE 1337
 
 CMD ["npm", "start"]
+
