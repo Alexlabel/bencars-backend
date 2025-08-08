@@ -1,0 +1,14 @@
+﻿[
+  {
+    "name": "Москва",
+    "slug": "Moscow"
+  },
+  {
+    "name": "Санкт-Петербург",
+    "slug": "Saint-Petersburg"
+  },
+  {
+    "name": "Казань",
+    "slug": "Tatarstan"
+  }
+]

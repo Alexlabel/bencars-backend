@@ -1,0 +1,51 @@
+﻿{
+  "kind": "collectionType",
+  "collectionName": "promo_pages",
+  "info": {
+    "singularName": "promo-page",
+    "pluralName": "promo-pages",
+    "displayName": "Promo Page"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "compareText": {
+      "type": "text"
+    },
+    "region": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::region.region",
+      "inversedBy": "promoPages"
+    },
+    "brand": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::brand.brand",
+      "inversedBy": "promoPages"
+    },
+    "slides": {
+      "type": "component",
+      "repeatable": true,
+      "component": "promo.slide"
+    },
+    "models": {
+      "type": "component",
+      "repeatable": true,
+      "component": "promo.model"
+    },
+    "trims": {
+      "type": "component",
+      "repeatable": true,
+      "component": "promo.trim"
+    }
+  }
+}

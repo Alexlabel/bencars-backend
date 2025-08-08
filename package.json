@@ -1,0 +1,36 @@
+{
+  "name": "bencars-backend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Strapi application",
+  "scripts": {
+    "build": "strapi build",
+    "console": "strapi console",
+    "deploy": "strapi deploy",
+    "dev": "strapi develop",
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "strapi": "strapi",
+    "upgrade": "npx @strapi/upgrade latest",
+    "upgrade:dry": "npx @strapi/upgrade latest --dry"
+  },
+  "dependencies": {
+    "@strapi/plugin-cloud": "5.18.1",
+    "@strapi/plugin-users-permissions": "5.18.1",
+    "@strapi/strapi": "5.18.1",
+    "mysql2": "3.9.8",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "styled-components": "^6.0.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0 <=22.x.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "uuid": "6dc042c6-852d-45c5-ad1e-6fd1c9e18eac",
+    "installId": "5ff73a5f27e4a28842aac0df597c657445ebcdaa5215b1282833189d5c08c228"
+  }
+}

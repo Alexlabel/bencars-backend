@@ -1,0 +1,43 @@
+﻿[
+  {
+    "title": "Специальные предложения на Chery Tiggo",
+    "description": "Получите скидки на популярные модели Chery в Москве.",
+    "region": "Москва",
+    "brand": 1,
+    "compareText": "Chery Tiggo 7 Pro vs Tiggo 8 Pro",
+    "slides": [
+      {
+        "title": "Новые автомобили со скидкой",
+        "description": "Chery Tiggo 7 Pro — выгодное предложение месяца.",
+        "image": "main1.jpg"
+      },
+      {
+        "title": "Лучшие предложения от дилеров",
+        "description": "Tiggo 8 Pro по специальной цене в Москве.",
+        "image": "main2.jpg"
+      }
+    ],
+    "models": [
+      {
+        "name": "Tiggo 7 Pro",
+        "description": "Кроссовер с отличным соотношением цены и качества.",
+        "image": "promo1.jpg"
+      },
+      {
+        "name": "Tiggo 8 Pro",
+        "description": "Флагманский кроссовер для большой семьи.",
+        "image": "promo2.jpg"
+      }
+    ],
+    "trims": [
+      {
+        "name": "Comfort",
+        "price": 1999000
+      },
+      {
+        "name": "Luxury",
+        "price": 2299000
+      }
+    ]
+  }
+]

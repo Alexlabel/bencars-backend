@@ -1,0 +1,14 @@
+﻿{
+  "collectionName": "components_promo_trims",
+  "info": {
+    "displayName": "Trim"
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "price": {
+      "type": "integer"
+    }
+  }
+}

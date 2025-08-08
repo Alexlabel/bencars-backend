@@ -1,0 +1,29 @@
+﻿{
+  "kind": "collectionType",
+  "collectionName": "regions",
+  "info": {
+    "singularName": "region",
+    "pluralName": "regions",
+    "displayName": "Region"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "promoPages": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::promo-page.promo-page",
+      "mappedBy": "region"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+﻿[
+  {
+    "name": "Chery Tiggo 7 Pro",
+    "slug": "chery-tiggo-7-pro",
+    "description": "Кроссовер с современным дизайном и богатой комплектацией.",
+    "brand": 1,
+    "gallery": ["tiggo7-1.jpg", "tiggo7-2.jpg"]
+  },
+  {
+    "name": "Chery Tiggo 8 Pro",
+    "slug": "chery-tiggo-8-pro",
+    "description": "Флагманский кроссовер с семиместным салоном.",
+    "brand": 1,
+    "gallery": ["tiggo8-1.jpg", "tiggo8-2.jpg"]
+  },
+  {
+    "name": "Geely Coolray",
+    "slug": "geely-coolray",
+    "description": "Стильный компактный кроссовер.",
+    "brand": 2,
+    "gallery": ["coolray-1.jpg"]
+  }
+]

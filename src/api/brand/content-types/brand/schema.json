@@ -1,0 +1,41 @@
+﻿{
+  "kind": "collectionType",
+  "collectionName": "brands",
+  "info": {
+    "singularName": "brand",
+    "pluralName": "brands",
+    "displayName": "Brand"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "logo_url": {
+      "type": "string"
+    },
+    "models": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::model.model",
+      "mappedBy": "brand"
+    },
+    "promoPages": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::promo-page.promo-page",
+      "mappedBy": "brand"
+    }
+  }
+}

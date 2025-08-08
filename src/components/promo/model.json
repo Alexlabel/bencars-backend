@@ -1,0 +1,18 @@
+﻿{
+  "collectionName": "components_promo_models",
+  "info": {
+    "displayName": "Model"
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
