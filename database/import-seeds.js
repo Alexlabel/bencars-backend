@@ -2,7 +2,7 @@
 const path = require('path');
 const axios = require('axios');
 
-const API_URL = 'http://localhost:1337/api';
+const API_URL = 'http://31.31.197.44/api';
 const MEDIA_FOLDER_LOCAL = 'C:/Users/Alexlabel/Desktop/strapi-images'; // <-- поменяй под себя!
 const MEDIA_FOLDER_SERVER = '/var/www/strapi-media'; // путь на сервере, если есть
 
