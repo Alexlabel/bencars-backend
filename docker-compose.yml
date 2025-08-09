@@ -10,8 +10,6 @@ services:
       MYSQL_DATABASE: u3191982_default
       MYSQL_USER: u3191982_default
       MYSQL_PASSWORD: M2i979QhnyGwgAb2
-    ports:
-      - "3306:3306"
     volumes:
       - mysql_data:/var/lib/mysql
 
@@ -38,7 +36,6 @@ services:
       JWT_SECRET: EWc7NAn3CzT3DEfBwJxWBw==
     
     volumes:
-      - ./backend:/app
       - strapi_uploads:/app/public/uploads
     ports:
       - "1337:1337"
@@ -48,7 +45,7 @@ services:
     container_name: nginx
     restart: always
     ports:
-      - "80:80"
+      - "8081:80"
     volumes:
       - ./nginx/conf.d:/etc/nginx/conf.d
       - strapi_uploads:/app/public/uploads
