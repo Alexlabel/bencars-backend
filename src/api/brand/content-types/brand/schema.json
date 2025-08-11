@@ -6,6 +6,14 @@
     "pluralName": "brands",
     "displayName": "Brand"
   },
+  "pluginOptions": {
+    "content-manager": {
+       "visible": true
+     },
+    "content-type-builder": {
+      "visible": true
+    }
+  },
   "options": {
     "draftAndPublish": false
   },
@@ -22,8 +30,10 @@
     "description": {
       "type": "text"
     },
-    "logo_url": {
-      "type": "string"
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false
     },
     "models": {
       "type": "relation",

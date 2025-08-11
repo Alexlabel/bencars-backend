@@ -6,6 +6,14 @@
     "pluralName": "promo-pages",
     "displayName": "Promo Page"
   },
+  "pluginOptions": {
+    "content-manager": {
+      "visible": true
+    },
+    "content-type-builder": {
+      "visible": true
+    }
+  },
   "options": {
     "draftAndPublish": false
   },
