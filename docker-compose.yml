@@ -5,6 +5,7 @@ services:
     image: mysql:8.0
     container_name: mysql
     restart: always
+    command: --sql-mode="NO_ENGINE_SUSTITUTION"
     environment:
       MYSQL_ROOT_PASSWORD: ipfsmanager
       MYSQL_DATABASE: u3191982_default
