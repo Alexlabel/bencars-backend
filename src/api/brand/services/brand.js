@@ -1,3 +1,4 @@
 ﻿'use strict';
-module.exports = {
-};
+const { createCoreService } = require('@strapi/strapi').factories;
+
+module.exports = createCoreService('api::brand.brand');
