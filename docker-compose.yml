@@ -16,7 +16,7 @@ services:
 
   strapi:
     build:
-      context: ./backend
+      context: .
     container_name: strapi
     depends_on:
       - mysql
