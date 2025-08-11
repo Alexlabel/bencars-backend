@@ -1,3 +1,5 @@
 ﻿'use strict';
-module.exports = {
-};
+const { createCoreController } = require('@strapi/strapi').factories;
+
+module.exports = createCoreController('api::promo-page.promo-page');
+
